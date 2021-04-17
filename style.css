@@ -1,0 +1,46 @@
+body{ 
+	color: rgb(0, 0, 0); /* color permet de changer la couleur de notre texte. On pourra utiliser le nom anglais d'une couleur, son code héxadécimale ou encore le code rgb*/
+	background-color: white;/*background-color permet de changer la couleur de fond de nos éléments*/
+	font-family: cursive;/*font-family permet de changer la police de notre site. C'est a dire le style d'écriture. On peut choisir plusieurs valeurs entre sérif, sans-sérif, fantasy, cursive et monospace*/
+	font-size: 15px;/*font-size permet de modifier la taille des lettres*/
+	line-height: 20px;/*line-height permet de modifier l'espace qu'il y a entre deux lignes de texte */ 
+	text-align: center;/*Grace a text-align, il est possible de changer la position du texte en le mettant au centre avec la valeur center, à gauche avec la valeur left, ou à droite avec la valeur right*/
+}
+	
+
+h1{
+	color:rgb(255,0,0);
+	font-family:serif;
+	font-variant:small-caps; /*font-variant avec pour valeur small-caps permet de transformer toutes les lettres en petites majuscules*/
+	letter-spacing:1px; /*pour pouvoir augmenter l'espace entre les lettres on utilise la proriété letter-spacing*/
+}
+
+h2{ 
+   color: rgb(255, 0, 0); 
+   font-weight: lighter;/*grace a font-weight, il est possible de modifier l'epaisseur des lettres, lighter pour les affiner, et bolder pour les épaissir*/
+}
+
+a{
+	color: rgb(255,0,0);
+	text-decoration: none; /*text-décoration avec pour valeur none permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens*/
+}
+
+a:hover{/*grace a cette sélection il est possible de modifier la couleur de notre lien lorsque l'on passee notre souris dessus*/
+	color:#7eb0f2;
+}
+
+div{
+	margin:25px 300px;/*margin correspond a la marge extérieur*/
+	padding:20px;/*padding correspond a la marge intérieur*/
+	border-radius:15px;/*border-radius permet d'arrondir les angles de nos bords*/ 
+	box-shadow:10px 10px 20px;/*box-shadox permet d'ajouter des ombres à nos éléments*/
+}
+ iframe{
+ 	border-radius:10px;
+ }
+
+ img{
+ 	border-radius:10px;
+ }
+
+
